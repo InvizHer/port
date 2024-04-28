@@ -129,5 +129,7 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(`.home__data`);
-sr.reveal(`.home__handle`, { delay: 700 });
-sr.reveal(`.home__social, .home__scroll`, { delay: 900, origin: 'bottom' });
+sr.reveal(`.about__img`, { delay: 700 });
+sr.reveal(`.about__box`, { delay: 800 });
+sr.reveal(`.about__description`, { delay: 900});
+sr.reveal(`.skills__content`, { delay: 800});
