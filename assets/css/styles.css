@@ -445,6 +445,7 @@ body.light-theme {
 
 .about__data {
   text-align: center;
+  margin: 10px;
 }
 
 .about__info {
@@ -488,6 +489,7 @@ body.light-theme {
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: 1.25rem;
+  margin: 20px;
 }
 
 .skills__title {
@@ -535,6 +537,7 @@ body.light-theme {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   padding-top: 1rem;
+  margin: 20px;
 }
 
 .services__card {
@@ -641,6 +644,7 @@ body.light-theme {
 /*=============== WORK ===============*/
 .work__container {
   padding-top: 1rem;
+  margin: 20px;
 }
 
 .work__filters {
@@ -748,6 +752,7 @@ body.light-theme {
 .contact__info {
   display: grid;
   gap: 1rem;
+  margin: 20px;
 }
 
 .contact__card {
@@ -850,7 +855,7 @@ body.light-theme {
 
 .footer__title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer__list {
@@ -877,7 +882,7 @@ body.light-theme {
 
 .footer__copy {
   display: block;
-  margin-top: 4.5rem;
+  margin-top: 2.5rem;
   color: var(--container-color);
   text-align: center;
   font-size: var(--smaller-font-size);
@@ -1069,6 +1074,7 @@ body.light-theme {
 
   .about__data {
     text-align: initial;
+    
   }
 
   .about__info {
