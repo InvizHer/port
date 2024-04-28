@@ -208,7 +208,7 @@ body.light-theme {
 }
 
 .section {
-  padding: 4.5rem 0 1rem;
+  padding: 3.5rem 0 1rem;
 }
 
 .section__title,
@@ -322,7 +322,6 @@ body.light-theme {
 
 .home__education {
   color: var(--text-color);
-  margin-bottom: 2.5rem;
 }
 
 .home__name {
@@ -489,7 +488,8 @@ body.light-theme {
   background-color: var(--container-color);
   padding: 1.5rem;
   border-radius: 1.25rem;
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;;
 }
 
 .skills__title {
