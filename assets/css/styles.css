@@ -803,7 +803,13 @@ body.light-theme {
 .contact__form-div {
   position: relative;
   margin-bottom: 2rem;
+  margin-left: 16px;
+  margin-right: 16px;
   height: 4rem;
+}
+
+.submit-btn {
+    margin-left: 16px;
 }
 
 .contact__form-input {
