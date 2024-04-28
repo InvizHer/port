@@ -500,7 +500,8 @@ body.light-theme {
   padding: 1.5rem;
   border-radius: 1.25rem;
   margin-left: 20px;
-  margin-right: 20px;;
+  margin-right: 20px;
+  border: 1px solid #9797f2;
 }
 
 .skills__title {
@@ -678,6 +679,7 @@ body.light-theme {
   background-color: var(--container-color);
   padding: 1rem;
   border-radius: 1rem;
+  border: 1px solid #9797f2;
 }
 
 .work__img {
@@ -770,6 +772,7 @@ body.light-theme {
   padding: 1rem;
   border-radius: 0.75rem;
   text-align: center;
+  border: 1px solid #9797f2;
 }
 
 .contact__card-icon {
