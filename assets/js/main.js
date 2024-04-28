@@ -138,4 +138,5 @@ sr.reveal(`.contact__card`, { delay: 600});
 sr.reveal(`.contact__form-div`, { delay: 600});
 sr.reveal(`.footer__list`, { delay: 600});
 sr.reveal(`.footer__social`, { delay: 700, origin: 'bottom' });
+sr.reveal(`.nav__menu`, { delay: 600, origin: 'bottom' });
 sr.reveal(`.nav__item`, { delay: 700, origin: 'bottom' });
