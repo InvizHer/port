@@ -130,6 +130,9 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__data`);
 sr.reveal(`.about__img`, { delay: 700 });
-sr.reveal(`.about__box`, { delay: 800 });
-sr.reveal(`.about__description`, { delay: 900});
+sr.reveal(`.about__box`, { delay: 900 });
+sr.reveal(`.about__description`, { delay: 1000});
 sr.reveal(`.skills__content`, { delay: 800});
+sr.reveal(`.work__card`, { delay: 800});
+sr.reveal(`.contact__card`, { delay: 800});
+sr.reveal(`.contact__form-div`, { delay: 800});
