@@ -136,3 +136,6 @@ sr.reveal(`.skills__content`, { delay: 700});
 sr.reveal(`.work__card`, { delay: 700});
 sr.reveal(`.contact__card`, { delay: 700});
 sr.reveal(`.contact__form-div`, { delay: 700});
+sr.reveal(`.footer__list`, { delay: 700});
+sr.reveal(`.footer__social`, { delay: 900, origin: 'bottom' });
+sr.reveal(`.nav__menu`, { delay: 900, origin: 'bottom' });
