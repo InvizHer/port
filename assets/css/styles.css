@@ -409,6 +409,17 @@ body.light-theme {
   transform: rotate(-90deg);
 }
 
+.top-github {
+    font-size: 22px;
+    display: inline-block;
+    color: var(--first-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid #c8c8fd;
+    transition: 0.4s;
+    margin-left: 20px;
+}
+
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
