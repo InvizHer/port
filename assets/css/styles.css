@@ -716,6 +716,99 @@ body.light-theme {
   color: var(--body-color);
 }
 
+
+  /* Popup Modal Styles */
+        .popup-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* For dark mode background */
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        /* CSS styles for the popup modal */
+        .popup-content {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 80%;
+            text-align: left;
+            animation: slideIn 1.2s ease forwards;
+            position: relative;
+        }
+        .popup-content h3 {
+            font-size: 1.1rem; /* Adjust title font size */
+            margin-bottom: 10px;
+        }
+
+        /* Dark mode styles */
+        .dark-theme .popup-content {
+            background-color: var(--container-color); /* For dark mode background */
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        /* Keyframe Animation */
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Hide project description initially */
+        .projects__card .project__description {
+            display: none;
+        }
+
+        /* Increase gap between description and Know More button */
+        .popup-content p {
+            font-size: 0.88rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Adjust button styles */
+        .popup-content .projects__button {
+            margin-top: 20px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .popup-content .projects__button:last-child {
+            margin-right: 0;
+        }
+
+       .popup-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+ /* Adjust popup modal size for desktop devices */
+@media screen and (min-width: 768px) {
+    .popup-content {
+        max-width: 40%; /* Adjust width as needed */
+        max-height: 90%; /* Adjust height as needed */
+        overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    }
+}
+
+
 /*=============== TESTIMONIAL ===============*/
 .testimonial__card {
   background-color: var(--container-color);
