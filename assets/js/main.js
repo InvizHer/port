@@ -136,8 +136,8 @@ themeButton.addEventListener('click', () => {
                 <h3>${title}</h3>
                 <img src="${image}" class="popup-image" alt="Project Image">
                 <p>${description}</p>
-                <a href="${preview}" class="button" target="_blank">Demo </a>
-                <a href="${link}" class="button" target="_blank">Get Code <i class="ri-arrow-right-circle-line"></i></a>
+                <a href="${preview}" class="work__button" target="_blank">Demo </a>
+                <a href="${link}" class="work__button" target="_blank">Get Code <i class="ri-arrow-right-circle-line"></i></a>
             `;
 
             return popupContent;
