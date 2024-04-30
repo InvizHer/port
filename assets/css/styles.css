@@ -683,6 +683,7 @@ body.light-theme {
 .work__img {
   border-radius: 1rem;
   margin-bottom: 0.75rem;
+  border: 1px solid #b5b5ff;
 }
 
 .work__title {
