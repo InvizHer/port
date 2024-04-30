@@ -733,7 +733,7 @@ body.light-theme {
 
         /* CSS styles for the popup modal */
         .popup-content {
-            background-color: #fff;
+            background-color: var(--container-color);
             padding: 30px;
             border-radius: 15px;
             max-width: 80%;
@@ -744,6 +744,7 @@ body.light-theme {
         .popup-content h3 {
             font-size: 1.1rem; /* Adjust title font size */
             margin-bottom: 10px;
+            color: var(--first-color);
         }
 
         /* Dark mode styles */
@@ -784,13 +785,13 @@ body.light-theme {
         }
 
         /* Adjust button styles */
-        .popup-content .projects__button {
+        .popup-content .work__button {
             margin-top: 20px;
             display: inline-block;
             margin-right: 10px;
         }
 
-        .popup-content .projects__button:last-child {
+        .popup-content .work__button:last-child {
             margin-right: 0;
         }
 
