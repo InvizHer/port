@@ -716,6 +716,20 @@ body.light-theme {
   color: var(--body-color);
 }
 
+.button-container {
+    text-align: center;
+}
+
+.all_work {
+    display: inline-block;
+    color: var(--first-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--first-color);
+    transition: 0.4s;
+    margin: 0 auto;
+    margin-top: 18px;
+}
 
   /* Popup Modal Styles */
         .popup-modal {
