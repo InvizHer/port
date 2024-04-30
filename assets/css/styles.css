@@ -248,7 +248,7 @@ body.light-theme {
 
 .nav__logo {
   color: var(--first-color);
-  font-weight: var(--font-medium);
+  font-weight: 700;
   transition: 0.4s;
 }
 
@@ -683,7 +683,7 @@ body.light-theme {
 .work__img {
   border-radius: 1rem;
   margin-bottom: 0.75rem;
-  border: 1px solid #b5b5ff;
+  border: 1px solid var(--first-color);
 }
 
 .work__title {
