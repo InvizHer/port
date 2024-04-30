@@ -789,6 +789,7 @@ body.light-theme {
             margin-top: 20px;
             display: inline-block;
             margin-right: 10px;
+            color: black;
         }
 
         .popup-content .work__button:last-child {
