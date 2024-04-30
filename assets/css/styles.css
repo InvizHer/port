@@ -772,7 +772,7 @@ body.light-theme {
         }
 
         /* Hide project description initially */
-        .projects__card .project__description {
+        .work__card .work__description {
             display: none;
         }
 
