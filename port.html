@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <style>
+      /* Article */
+.article__container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 14px;
+    box-sizing: border-box;
+    opacity: 0;
+    animation: slideIn 1.5s ease forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.article__heading {
+    font-size: 18px;
+    margin-bottom: 4px;
+    text-align: left;
+    color: #333;
+}
+
+.article__info {
+    font-size: 0.75rem;
+    color: #888;
+    margin-bottom: 12px;
+}
+
+.article__image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.article__text {
+    margin-bottom: 12px;
+    font-size: 0.92rem;
+    color: #555;
+}
+
+.article__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.article__button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.article__button:hover {
+    background-color: #eee;
+}
+
+/* Footer */
+.footer {
+    border-top: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.footer__copy {
+    font-size: 0.8rem;
+}
+
+.profile__social {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile__social-link {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0 5px;
+}
+
+/* Responsive Styles */
+@media (min-width: 650px) {
+    .article__image {
+        width: 50%;
+        margin-left: 20%;
+        margin-bottom: 20px;
+    }
+
+    .article__heading {
+        font-size: 22px;
+    }
+
+    .article__text {
+        font-size: 0.95rem;
+    }
+}
+    </style>
+
+    <title>Pavan Magar</title>
+</head>
+
+<body>
+    <!--=============== HEADER ===============53-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Pavan Magar</a>
+
+            <!-- <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div> -->
+
+            <!-- THEME CHANGE BUTTON -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== ARTICLE ===============-->
+        <div class="article__container">
+            <h1 class="article__heading">Terabox Downloader</h1>
+            <div class="article__content">
+            <p class="article__info">Posted on <span id="posted-date">20.03.2024</span> by <span id="author-name">Pavan Magar.</span></p>
+                <p class="article__text">In this article you will understand the topics like what is the terabox downloader, how terabox downloader works, how to use terabox downloader etc. At the end of article you can get a demo of terabox downloader and also you can ask us for code of terabox downloader. So let's get start it.</p>
+        <!---    <img src="assets/img/terabox.jpg" alt="Article Image" class="article__image">  ---->
+                <p class="article__text">In short, Terabox downloader is a telegram bot which can help you to download videos from terabox links. You just need to send your terabox video link to bot and bot will download video from terabox server and will send that video to you.</p>
+                <p class="article__text">If you want to know how this bot works so listen, this bot accept terabox video link from user then fetches that link data from terabox server using their terabox api and cookis of trabox. Then starts to download that video. if any error occures then bot will show that to you and if not then bot will send you video in few seconds.</p>
+                <p class="article__text">You can see demo of this project by using following demo button and also if you are intrested to checkout the code of this project and wants the code of this project then ask author for code by using ask code button below.</p>
+                <div class="article__buttons">
+                <a href="https://telegram.me/boxgramrobot" class="article__button">Get Demo</a>
+                <a href="https://telegram.me/pavanmagar" class="article__button">Ask for Code</a>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+           <!-- <h1 class="footer__title">Pavan Magar</h1> -->
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+                </li>
+
+                <li>
+                    <a href="#work" class="footer__link">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#testimonial" class="footer__link">Contact</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+
+                <a href="https://github.com/" target="_blank" class="footer__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; Pavan Magar. All rigths reserved
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
