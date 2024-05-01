@@ -1008,7 +1008,7 @@ body.light-theme {
 
 .footer__copy {
   display: block;
-  margin-top: 2.5rem;
+  margin-top: 2rem;
   color: var(--container-color);
   text-align: center;
   font-size: var(--smaller-font-size);
