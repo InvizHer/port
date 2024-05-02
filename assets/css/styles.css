@@ -415,7 +415,7 @@ body.light-theme {
     color: var(--first-color);
     padding: 0.3rem 0.8rem;
     border-radius: 0.5rem;
-    border: 1px solid #c8c8fd;
+    border: 1px solid var(--first-color);
     transition: 0.4s;
     margin-left: 20px;
 }
@@ -814,6 +814,7 @@ body.light-theme {
             max-width: 100%;
             height: auto;
             border-radius: 8px;
+            border: 1px solid var(--first-color);
         }
  /* Adjust popup modal size for desktop devices */
 @media screen and (min-width: 768px) {
